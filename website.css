@@ -1,0 +1,26 @@
+.container{margin:0 auto; width:1200px; border:1px solid #000; min-height:900px}
+header{width:100%}
+nav{width:100%}
+header nav ul {list-style-type:none;margin:10px 10px; padding:10px 10px;background-color:grey;overflow:hidden;}
+header nav ul li{float:left; border-right: 1px solid #bbb}
+header nav ul li a{text-decoration:none;color:White;padding:10px 12px;width:300px}
+header nav ul li a:hover {background-color: green ;text-shadow: 1px 0 0 #54565b;
+    opacity: 1}
+body{font-family: Candara,Monospace}
+.leftside{width:595px; min-height:850px; float:left;margin:0 5px 0px 20px}
+input[type=submit]:hover {
+    background-color: yellow;
+}
+input[type=submit] {font-size:16px;padding:5px;font-family: Candara,Monospace;font-weight:bold;color:green;cursor:pointer}
+
+input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 5px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.topright{width:560px; background-color:offwhite; min-height:850px; float:right;padding-right:20px}
+
+h3{font-size:17px;font-style:normal;font-weight:normal}
